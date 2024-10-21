@@ -1,0 +1,1372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: "Montserrat", sans-serif;
+
+
+}
+*::selection {
+  background-color: rgba(239, 229, 220, 70%);
+  user-select:auto; 
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+body {
+
+  height: 100vh;
+  position: relative;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.first {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 70%
+}
+
+.first-1 {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+
+  color: white;
+  align-items: center;
+  padding-left: 7rem;
+  gap: 1rem;
+  font-size: 1.563rem;
+  font-weight: bold;
+
+}
+
+.container-page-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: end;
+  background-image: url(./photo-departement/photo-dep.png);
+  background-size: cover;
+
+}
+
+.phase11 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55%;
+  background-color: rgba(31, 32, 65, 0.80);
+  justify-content: end;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.first-2 {
+  color: white;
+  display: flex;
+  width: 100%;
+  padding-left: 3.5rem;
+  font-size: 0.875rem;
+  justify-content: start;
+  align-items: center;
+  height: 25%;
+  font-weight: 600;
+  gap: 5px;
+}
+
+.first-2 p {
+  font-size: 12px;
+}
+
+
+
+
+
+.second {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  justify-content: end;
+
+  font-size: 1rem;
+
+}
+
+.second>p {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-bottom: 3rem;
+  gap: 2rem;
+}
+
+#second-text-1 {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 3.7rem;
+  font-weight: 600;
+}
+
+#squares {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+#yui {
+  width: 0.813rem;
+  height: 0.813rem;
+}
+
+.tables {
+  gap: 0rem;
+  ;
+}
+
+td {
+  border-bottom: 1px solid;
+}
+
+#table-container {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.table-slide {
+  display: inline-block;
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.arrow-right {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.navigation {
+  text-align: center;
+}
+
+.table-number {
+  font-size: 24px;
+}
+
+.arrow {
+  cursor: pointer;
+  user-select: none;
+}
+
+.tables {
+  background-color: #EFE5DC;
+}
+
+.tables>thead {
+  background-color: #34365C;
+  color: #EFE5DC;
+}
+
+.table-style {
+  width: auto;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.table-style th,
+.table-style td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  width: 15rem;
+}
+
+.table-style th {
+  background-color: #34365C;
+  color: white;
+}
+
+.table-style tr:nth-child(even) {
+  background-color: #EFE5DC;
+}
+
+.table-style tr:nth-child(odd) {
+  background-color: #EFE5DC;
+}
+
+.table-style td:hover {
+  background-color: #ddd;
+}
+
+.head>th:nth-child(1) {
+  width: 10%;
+}
+
+.head>th:nth-child(2) {
+  width: 25%;
+}
+
+.head>th:nth-child(3) {
+  width: 25%;
+}
+
+.head>th:nth-child(4) {
+  width: 40%;
+}
+
+#table-container {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-style {
+  font-weight: bold;
+  text-align: center;
+}
+
+.head>th {
+  color: #EFE5DC;
+}
+
+.head>th {
+  text-align: center;
+}
+
+.table-style th,
+.table-style td {
+  text-align: center;
+}
+
+.table-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+
+
+}
+
+#table-number {
+  height: 100%;
+  width: 2.188rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#left-arrow {
+  height: 60px;
+  width: 60px;
+}
+
+.navigation>span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+}
+
+#right-arrow {
+
+  height: 60px;
+  width: 60px;
+}
+
+.before-table {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.before-table-content {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: .5rem;
+  width: 45%;
+  font-weight: 600;
+}
+
+.after-table {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.563rem;
+  font-weight: bold;
+}
+
+#table-phase {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.imgss {
+  width: 2.188rem;
+  height: 2.188rem;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation-name: fadeEffect;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in {
+  animation-name: fadeEffect;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+}
+
+.before-table-content>img {
+  align-self: start;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: .2rem;
+}
+
+.imgss-disable {
+  opacity: 20%;
+}
+
+.th {
+  color: #34365C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mehdi's Part Starts from here onward: */
+
+.ContainerMain {
+
+  flex-direction: column;
+
+}
+
+.FormaObjective {
+
+  height: 930px;
+  width: 100%;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.FormaObjective {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FormaObjective .FOTitle {
+
+
+  height: 30px;
+  width: 100%;
+  padding: 25px;
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  bottom: 3%;
+  color: #246A73;
+
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: left;
+
+}
+
+.FormaObjective .FO1 {
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  /*     margin-left: 10px; */
+
+  width: 100%;
+  height: 400px;
+  /*       border: 1px solid red; */
+
+}
+
+.FormaObjective .FO1 .FO1Left {
+
+  height: 400px;
+  width: 50%;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 60px;
+
+  color: #1F2041;
+
+  /* gap: 20px; */
+
+
+}
+
+.FormaObjective .FO1 .FO1Left p {
+
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+
+
+}
+
+.FormaObjective .FO1 .FO1Left .P2 {
+
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: left;
+
+  color: #246A73;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  width: 100%;
+
+
+}
+
+.FormaObjective .FO1 .FO1Left .PList {
+
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #1F2041;
+
+  /*  list-style: none; */
+
+}
+
+
+/* .FormaObjective .FO1 .FO1Left .PList li::before{
+
+
+   
+
+  content: "."; 
+  color: red; 
+  font-size:  30px; 
+  margin-right: 8px;
+
+} */
+
+
+
+
+
+.FormaObjective .FO1 .FO1Right {
+
+  height: 425px;
+  width: 725px;
+  background-image: url(photo-departement/box-licence1-2-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.FormaObjective .FO2 {
+
+
+  margin-top: 40px;
+  /*   margin-left: 12px; */
+
+  gap: 40px;
+  height: 60px;
+  width: 100%;
+  /*     border: 1px solid green; */
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  color: #1F2041;
+
+
+}
+
+.FormaObjective .FO2 p {
+
+  margin-left: 3.8rem;
+
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+
+
+}
+
+.FormaObjective .FO2 .Fbox {
+
+  height: 43px;
+  width: 160px;
+  background-color: #1F2041;
+  color: white;
+
+
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.FormaObjective .FO2 .Fbox .FboxP {
+
+
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  margin-left: 0px;
+  color: white;
+}
+
+.FormaObjective .FO2 .Fbox:hover {
+
+  background-color: #1f2041b9;
+}
+
+
+.FormaObjective .FO3 {
+
+  margin-top: 30px;
+  /*       border: 1px solid red; */
+  height: 300px;
+  width: 100%;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  gap:2rem ;
+
+
+}
+
+.FormaObjective .FO3 .FBox {
+
+  height: 300px;
+  width: 300px;
+  /* border: 1px solid red; */
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+
+.FormaObjective .FO3 .FBox li {
+  font-size: 15px;
+}
+
+.FormaObjective .FO3 .FBox .PBTitle {
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  text-align: left;
+
+  color: #246A73;
+
+}
+
+
+
+.FormaObjective .FO3 .FBox .PBText {
+
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 18px;
+  text-align: left;
+
+  color: #1F2041;
+
+}
+
+.FormaObjective .FO3 .FBox img {
+
+
+  height: 20px;
+  width: 30px;
+
+  margin-right: 215px;
+
+}
+
+.FormaObjective .FO3 .FBox .PBList {
+
+  margin-left: 30px;
+
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+
+  color: #1F2041;
+
+
+}
+
+
+.FormaObjective .FO3 .FBoxBr .PBTitle {
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  text-align: left;
+
+  color: #246A73;
+
+  padding-right: 60px;
+
+
+}
+
+
+.FormaObjective .FO3 .FBox3 .PBTitle {
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  text-align: left;
+
+  color: #246A73;
+
+  margin-right: 180px;
+
+
+}
+
+.FormaObjective .FO3 .FBoxBr img {
+
+  height: 23px;
+  width: 25px;
+
+
+}
+
+
+
+
+
+
+
+
+.DecouvrezProgramme {
+
+  height: 260px;
+  width: 100%;
+
+  background-color: #1F2041;
+
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  padding-left: 100px;
+
+}
+
+.DecouvrezProgramme .DPPic {
+
+  height: 36px;
+  width: 37px;
+
+
+}
+
+.DecouvrezProgramme .DPText {
+
+
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 43.88px;
+  text-align: left;
+
+
+}
+
+
+
+
+
+
+
+
+.FormaEmplois {
+
+  height: 1400px;
+  width: 100%;
+
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+.FormaEmplois .EM {
+
+
+  margin-top: 50px;
+  margin-left: 20px;
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+
+}
+
+
+.FormaEmplois .EM .EM11 {
+
+  /*  border: 1px solid black; */
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 70px;
+
+
+
+}
+
+.FormaEmplois .EM .EM11 .EMP1 {
+
+
+  color: #246A73;
+
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+
+  margin-bottom: 17px;
+
+
+
+}
+
+.FormaEmplois .EM .EM11 .EMP22 {
+
+
+  color: #1F2041;
+
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26.82px;
+  text-align: left;
+
+  margin-left: 45px;
+
+
+}
+
+.FormaEmplois .EM .EM11 ul a {
+
+  color: #368F8B;
+
+
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+
+  margin-left: 5px;
+
+
+}
+
+
+.FormaEmplois .EM .EM11 ul a:hover {
+
+
+  color:#DDBEA8;
+  transition: 0.7s;
+
+}
+
+
+
+.FormaEmplois .EM .EM11 ul li {
+
+  color: #368F8B;
+
+  margin-left: 110px;
+
+
+
+}
+
+.FormaEmplois .EM .EM11 ul .LI1 {
+
+
+  margin-top: 20px;
+
+}
+
+.FormaEmplois .EM .EM11 ul .LI2 {
+
+
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+.FormaEmplois .EM .EM11 .EMPB {
+
+
+  color: white;
+  background-color: #1F2041;
+
+  width: 170px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  margin-top: 30px;
+  margin-left: 60px;
+
+
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+
+}
+
+.FormaEmplois .EM .EM11 .EMPB p {
+
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  margin-right: 5px;
+
+}
+
+.FormaEmplois .EM .EM11 .EMPB a {
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  text-decoration: none;
+
+  color: white;
+
+  margin: 0px 5px 0px 0px;
+
+
+
+
+}
+
+
+.FormaEmplois .EM .EM11 .EMPB img {
+
+  width: 26px;
+  height: 26px;
+
+
+}
+
+
+.FormaEmplois .EM .EM11 .EMPB:hover {
+  background-color: #1f2041b9;
+
+}
+
+
+.FormaEmplois .Part2 {
+
+
+  /* border: 1px solid red; */
+
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.FormaEmplois .Part2 .SideTitle {
+
+
+  color: #246A73;
+
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+
+  margin-bottom: 17px;
+  margin-left: 90px;
+  margin-top: 30px;
+
+}
+
+.FormaEmplois .Part2 .Sides {
+
+
+  /*   border: 1px solid black; */
+  width: 100%;
+  height: 430px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 30px;
+
+}
+
+.FormaEmplois .Part2 .SectionA {
+
+  height: 100%;
+  width: 43%;
+
+  background-color: #F3DFC14D;
+
+
+
+}
+
+.FormaEmplois .Part2 .SectionA .PSTitle {
+
+  color: #1F2041;
+
+
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 30px;
+  text-align: left;
+
+  margin-bottom: 17px;
+  margin-top: 20px;
+
+}
+
+
+
+.FormaEmplois .Part2 .SectionA .BoxTitle {
+
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.FormaEmplois .Part2 .SectionA p {
+
+
+  color: #1F2041;
+
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+
+  margin-left: 45px;
+
+}
+
+.FormaEmplois .Part2 .SectionA .LeftP {
+
+  line-height: 160%;
+
+}
+
+
+.FormaEmplois .Part2 .SectionA .PSTitle1 {
+
+  margin-bottom: 50px;
+  margin-right: 35px;
+
+}
+
+.FormaEmplois .Part2 .SectionA .PSTitle2 {
+
+  text-align: center;
+  margin-right: 40px;
+
+}
+
+
+.FormaEmplois .Part2 .SectionA ul li {
+
+
+  margin-left: 90px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  color: #368F8B;
+
+}
+
+.FormaEmplois .Part2 .SectionA ul li a {
+
+  color: #368F8B;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+
+  margin-left: 5px;
+
+}
+
+
+.FormaEmplois .Part2 .SectionA ul li a:hover {
+
+
+  color:#DDBEA8;  
+  transition: 0.7s;
+}
+
+
+
+.FormaEmplois .Part2 .SectionA .EMPB {
+
+
+
+  color: white;
+  background-color: #1F2041;
+
+  width: 170px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 3px;
+
+  margin-top: 30px;
+  margin-left: 45px;
+
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  gap: 2px;
+
+}
+
+.FormaEmplois .Part2 .SectionA .SEMPB {
+
+  margin-bottom: 100px;
+  margin-top: 10px;
+
+
+}
+
+
+.FormaEmplois .Part2 .SectionA .SEMPB:hover {
+  background-color: #1f2041b9;
+}
+
+.FormaEmplois .Part2 .SectionA .FEMPB {
+
+  margin-top: 30px;
+
+
+}
+
+.FormaEmplois .Part2 .SectionA .FEMPB:hover {
+  background-color: #1f2041b9;
+}
+
+
+
+/* 
+.FormaEmplois .Part2 .SectionA .EMPB p{
+
+
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+
+
+color: white;
+
+margin: 0px 5px 0px 0px;
+
+}
+ */
+.FormaEmplois .Part2 .SectionA .EMPB a {
+
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  text-decoration: none;
+
+  color: white;
+
+  margin: 0px 5px 0px 0px;
+
+
+}
+
+
+.FormaEmplois .Part2 .SectionA .EMPB img {
+
+
+  width: 26px;
+  height: 26px;
+
+}
+
+
+.FO3 {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+.Footer {
+
+
+  height: 500px;
+  width: 100%;
+  background-color: #1F2041;
+}
+.ul
+{
+  font-size: 12px;
+}
+#tsparticles{
+  position: relative;
+}
+canvas
+{
+  position: absolute;
+}
+#tsparticles1
+{
+    position: relative;
+}
+.containerDropDown > img
+{
+    width: 20px;
+    height: 20px;
+}
+.containerDropDown
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.containerDropDown > img
+{
+    position: relative;
+    left: 10px;
+}
+.dropdown-content div:hover {
+    background-color: #ddd;
+}
+.dropdown-content div 
+{
+    transition-duration: 0.7s;
+}
+.dropdown-content div:hover {
+    padding-left: 3rem;
+
+} 
+.dropdown-content > div > img
+{
+    width: 20px;
+    height: 20px;
+}
+.dropdown-content :nth-child(2)
+{
+    display: flex;
+    align-items: center;
+}
+.dropdown-content :nth-child(2) > img
+{
+    position: relative;
+    left: 10px;
+}
+#myDropdown > div > img
+{
+    width: 20px;
+    height: 20px; 
+    position: relative;
+    left: 10px;
+}
+.dropdown-content :nth-child(2)
+{
+    cursor: pointer;
+}
+#myDropdown > div
+{
+    cursor: pointer;
+}
