@@ -1,0 +1,226 @@
+
+
+.swiper {
+  max-width: 13.375rem;
+  max-height: 18.125rem;
+  z-index: 3;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: Rgb(0,0,0,1);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(124,206,240,1);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(96,177,76,1);
+}
+
+.Clubs_card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: .8rem;
+    padding: 0.5rem;
+}
+.clubs_card_item1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.2rem;
+}
+.clubs_card_item1 >img
+{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 1.5%;
+}
+.clubs_card_item1 > p
+{
+    font-size: 1rem;
+    text-align: start;
+}
+
+.clubs_card_item2 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    width: 100%;
+}
+.clubs_card_item2 :nth-child(1)
+{
+    color: #FFDD55;
+    font-size: 0.8rem;
+
+}
+.clubs_card_item2 :nth-child(2)
+{
+    color: #FF543E;
+    font-size: 0.8rem;
+
+}
+p
+{
+    padding:  0;
+    margin: 0;
+}
+.clubs_card_item3 
+{
+    font-size: 0.7rem;
+    text-align: center;
+    width: 97%;
+}
+.Clubs_card_item4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: .7rem;
+    height: 20%;
+}
+.Clubs_card_item4_1 >img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.Clubs_card_item4_1
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.4rem;
+    width:30%;
+    height: 100%;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Clubs_card_item5
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 100%;
+    gap: 1rem;
+   
+
+}
+.Clubs_card_item5 >img
+{
+    max-width: 20px;
+    max-height: 20px;
+}
+#id7788
+{
+    color: #3771C8;
+    font-size: 0.8rem;
+}
+#id7789
+{
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+#id77881
+{
+color: #FFDE59;
+font-size: 0.8rem;
+
+}
+#id77882
+{
+    color: #368F8B;
+    font-size: 0.8rem;
+
+}
+.reseau_pic1{
+
+
+display: flex;
+    flex-direction: column;
+    font-size: 0.4rem;
+    width: 30%;
+    height: 100%;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+.reseau_pic1>img{
+  height: 15px;
+  width: 23px;
+}
+
+.reseau_pic1 > p
+{
+    font-size: 7.2px;
+}
+
+
+#s056{
+  padding-left: 2%
+}
+
+.Clubs_card_item5 a .fb_cards{
+  height: 23px;
+  width: 23px;
+  padding-bottom: .1rem;
+}
+.Clubs_card_item5 a .lk_cards{
+  height: 21px;
+  width: 23px;
+}
+.Clubs_card_item5 a .insta_cards{
+  height: 17px;
+  width: 18px;
+ 
+}
+
+.Clubs_card_item5  .mail_cards{
+  max-height: 23px;
+  max-width: 23px;
+}
+.Clubs_card_item5 > a 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+}
+a:visited
+{
+  display: none;
+}
+#bonHomme_1
+{
+  z-index: 4;
+  height: 300px;
+  width: 220px;
+  position: absolute;
+  top:62%;
+  right:95%;
+
+}
