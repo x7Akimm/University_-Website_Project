@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfc;
+    font-family: sans-serif;
+}
+.haut{
+    display:flex;
+    justify-content: space-around;
+    height: 103px;
+}
+
+
+.table-container{
+    padding: 0 10%;
+    margin: 25px auto 0;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color:#1F2041;
+    margin-bottom: 40px;
+    order:2;
+    padding-top: 15px;
+}
+.photo{
+    order:3
+}
+.table{
+    width:100%;
+    border-collapse: collapse;
+}
+.table thead{
+    background-color: #1F2041;
+}
+.table thead tr th{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+    color: #DDBEA8;
+    opacity:1;
+    padding: 8px;
+    vertical-align: top;
+    border:1px solid #DDBEA8;
+
+}
+.table tbody tr td {
+   font-size: 14px; 
+   letter-spacing: 0.35px;
+   font-weight: normal;
+   color: #1F2041;
+   background-color: #ffffff;
+   padding:8px;
+   text-align: center;
+   border:1px solid #1F2041;
+}
+.table tbody td[data-label="days"]{
+    background-color:#F3DFC1;
+} 
+
+.table tbody td[class="thl"]{
+    background-color: #B9D9DF;
+}
+
+.table tbody td[class="dev"]{
+    background-color: #F7D5D1;
+}
+.table tbody td[class="se"]{
+    background-color:#DFC0D5;
+}
+.table tbody td[class="rs"]{
+    background-color: #002aff4d;
+}
+.table tbody td[class="poo"]{
+    background-color: #00fff76f;
+}
+.table tbody td[class="bdd"]{
+    background-color: #f6ff0070;
+}

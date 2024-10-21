@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="isil.css">
+    <link rel="icon" type="image/png" href="LOGO-Fac-centrale.png">
+    <title>Emplois du temps</title>
+</head>
+<body>
+    <div class="table-container"></div>
+    <div class="haut"> 
+         <h1 class="heading">Emplois du temps</h1>
+        <img src="LOGO-Fac-centrale.png" width="80" height="80" alt="logo-fac">
+        <img src="LOGO-Fac-centrale.png" class="photo" width="80" height="80" alt="logo-fac">
+</div>
+    <table  class="table" >
+        <thead>
+            <tr>
+                <th>days</th>
+                <th>grp</th>
+                <th>8:00 - 9:30</th>
+                <th>9:40 - 11:10</th>
+                <th>11:20 - 12:50</th>
+                <th>13:00 - 14:30</th>
+                <th>14:40 - 16:00</th>
+                <th>16:10 - 17:25</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="days" rowspan="2"> samedi</td>
+                <td data-label="grp">1</td>
+                <td class="app" data-label="8:00 - 9:30" rowspan="2" >Apprentissage Automatique-salle 6 eme etage</td>
+                <td class="archi" data-label="9:40 - 11:10" >TP-Architecture logicielle-labo 3</td>
+                <td class="ia" data-label="11:20 - 12:50" >TP-IA-labo 6</td>
+                <td  class="archi" data-label="13:00 - 14:30" rowspan ="2"  >Architecture logicielle-salle cour</td>
+                <td class="archi" data-label="14:40 - 16:00" rowspan ="2" >TD-Architecture logicielle-salle cour</td>
+                <td data-label="16:10 - 17:25" ></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                <td class="ia" >TP-IA-labo 6</td>
+              <td class="archi" >  TP-Architecture logicielle-labo 3</td>
+              <td></td>
+                
+               
+            </tr>
+
+            
+            
+            <tr>
+                <td data-label="days" rowspan="2">dimanche</td>
+                <td data-label="grp">1</td>
+                <td class="Analyse" data-label="8:00 - 9:30" rowspan="2">Analyse Statistique des Donne -Mme Belattar</td>
+                <td class="Analyse" data-label="9:40 - 11:10" rowspan="2">TD-Analyse Statistique des Donne -Mme Belattar</td>
+                <td class="ti" data-label="11:20 - 12:50" rowspan="2">Introduction aux traitement d'image-Mme Belattar</td>
+                <td class="ti" data-label="13:00 - 14:30" rowspan="2">TP-Introduction aux traitement d'image-Mme Belattar</td>
+                <td data-label="14:40 - 16:00" ></td>
+                <td data-label="16:10 - 17:25"></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            
+            
+            <tr>
+                <td data-label="days" rowspan="2">lundi</td>
+                <td data-label="grp">1</td>
+                <td class="met" data-label="8:00 - 9:30" rowspan="2">Methode de securite-M rahmani</td>
+                <td class="met" data-label="9:40 - 11:10" rowspan="2">TD-Methode de securite-M rahmani</td>
+                <td class="Res" data-label="11:20 - 12:50" rowspan="2">Reseaux Avance-M Baadache </td>
+                <td class="Res" data-label="13:00 - 14:30" >TP-Reseaux Avance-M Baadache</td>
+                <td class="opti" data-label="14:40 - 16:00">TD-Optimisation Combinatoire-salle 3</td>
+                <td  data-label="16:10 - 17:25"></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                <td class="opti" >TD-Optimisation Combinatoire-salle 3</td>
+                <td class="Res">TP-Reseaux Avance-M Baadache</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td data-label="days" rowspan="2">mardi</td>
+                <td data-label="grp">1</td>
+                <td class="mult" data-label="8:00 - 9:30" rowspan="2">Multimedia-M Hamouchene</td>
+                <td  data-label="9:40 - 11:10" ></td>
+                <td class="mult" data-label="11:20 - 12:50" >TP-Multimedia-M Hamouchene</td>
+                <td class="sys" data-label="13:00 - 14:30" rowspan="2">Systheme d'aide a la decision-MR Kechid</td>
+                <td class="opti" data-label="14:40 - 16:00" rowspan="2">Optimisation combinatoire-salle cour</td>
+                <td  data-label="16:10 - 17:25" rowspan="2"></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                
+                <td class="mult">TP-Multimedia-M Hamouchene</td>
+                <td></td>
+                
+            </tr>
+            
+            <tr>
+                <td data-label="days" rowspan="2">mercredi</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" ></td>
+                <td  data-label="9:40 - 11:10" ></td>
+                <td  data-label="11:20 - 12:50" ></td>
+                <td  data-label="13:00 - 14:30" ></td>
+                <td  data-label="14:40 - 16:00"></td>
+                <td data-label="16:10 - 17:25"></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td data-label="days" rowspan="2">jeudi</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" ></td>
+                <td  data-label="9:40 - 11:10" ></td>
+                <td  data-label="11:20 - 12:50" ></td>
+                <td  data-label="13:00 - 14:30" ></td>
+                <td  data-label="14:40 - 16:00"></td>
+                <td data-label="16:10 - 17:25"></td>
+            </tr>
+            <tr data-label="grp">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>   
+                
+                
+            
+        </tbody>
+    </table>
+</body>
+</html>

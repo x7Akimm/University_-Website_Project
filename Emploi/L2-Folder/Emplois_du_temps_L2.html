@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Emplois-du-temps-L2.css">
+    <link rel="icon" type="image/png" href="LOGO-Fac-centrale.png">
+    <title>Emplois du temps</title>
+</head>
+<body>
+    <div class="table-container"></div>
+    <div class="haut"> 
+         <h1 class="heading">Emplois du temps</h1>
+        <img src="LOGO-Fac-centrale.png" width="80" height="80" alt="logo-fac">
+        <img src="LOGO-Fac-centrale.png" class="photo" width="80" height="80" alt="logo-fac">
+</div>
+    <table  class="table" >
+        <thead>
+            <tr>
+                <th>days</th>
+                <th>grp</th>
+                <th>8:00 - 9:30</th>
+                <th>9:40 - 11:10</th>
+                <th>11:20 - 12:50</th>
+                <th>13:00 - 14:30</th>
+                <th>14:40 - 16:00</th>
+                <th>16:10 - 17:25</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="days" rowspan="5"> samedi</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" rowspan="5"></td>
+                <td data-label="9:40 - 11:10" rowspan="5"></td>
+                <td data-label="11:20 - 12:50" rowspan="5">Anglais-mr HAMDINI</td>
+                <td data-label="13:00 - 14:30" rowspan="5"></td>
+                <td data-label="14:40 - 16:00" rowspan="5"></td>
+                <td data-label="16:10 - 17:25" rowspan="5"></td>
+            </tr>
+                <tr data-label="grp">
+                   <td>2</td>
+                </tr>
+                <tr data-label="grp">
+                    <td>3</td>
+                </tr>
+                <tr data-label="grp">
+                    <td>4</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>5</td>
+                </tr>
+            
+            
+            <tr>
+                <td data-label="days" rowspan="5">dimmanche</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" rowspan="5"></td>
+                <td data-label="9:40 - 11:10" rowspan="5"></td>
+                <td data-label="11:20 - 12:50" rowspan="5"></td>
+                <td data-label="13:00 - 14:30" rowspan="5"></td>
+                <td data-label="14:40 - 16:00" rowspan="5"></td>
+                <td data-label="16:10 - 17:25" rowspan="5"></td>
+            </tr>
+                <tr data-label="grp">
+                   <td>2</td>
+                </tr>
+                <tr data-label="grp">
+                    <td>3</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>4</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>5</td>
+                </tr>
+
+            
+            <tr>
+                <td data-label="days" rowspan="5">lundi</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" rowspan="5"></td>
+                <td class="thl" data-label="9:40 - 11:10" rowspan="5"> THL Amphi-a Djaoudi</td>
+                <td class="dev" data-label="11:20 - 12:50" rowspan="5"> Dev Web Amphi-A Ali saoucha </td>
+                <td class="se" data-label="13:00 - 14:30" rowspan="5"> SE1 Salle cour 3 mahseur</td>
+                <td data-label="14:40 - 16:00" rowspan="5"></td>
+                <td data-label="16:10 - 17:25" rowspan="5"></td>
+            </tr>
+                <tr data-label="grp">
+                   <td>2</td>
+                </tr>
+                <tr data-label="grp">
+                    <td>3</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>4</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>5</td>
+                </tr>
+
+            
+            <tr>
+                <td data-label="days" rowspan="5">mardi</td>
+                <td data-label="grp">1</td>
+                <td data-label="8:00 - 9:30" rowspan="5"></td>
+                <td data-label="9:40 - 11:10" rowspan="5"></td>
+ 
+                <td class="thl" data-label="11:20 - 12:50">TD THL</td>
+                <td class="rs" data-label="13:00 - 14:30">TD RESEAU</td>
+                <td class="thl" data-label="14:40 - 16:00">TP THL</td>
+                <td class="se" data-label="16:10 - 17:25">TD SE1 salle 5 mahseur</td>
+            </tr>
+                
+                <tr data-label="grp">
+                   <td>2</td>
+                   <td class="rs">TD RESEAU</td>
+                   <td class="thl"> TD THL</td>
+                   <td class="se">TD SE1 salle 5 mahseur</td>
+                   <td class="thl">TP THL</td>
+                </tr>
+                <tr data-label="grp">
+                    <td>3</td>
+                    <td class="poo">TP POO</td>
+                    <td class="se">TP SE1</td>
+                    <td class="bdd">TD BDD salle 31 Aiouaz</td>
+                    <td class="dev">TP dev web labo 4 </td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>4</td>
+                    <td class="bdd">TP BDD</td>
+                    <td class="poo">TP POO</td>
+                    <td class="rs" >TP RESEAU labo 1 Aoudia</td>
+                    <td class="bdd">TD BDD salle 31 Aiouaz</td>
+                 </tr>
+                <tr data-label="grp">
+                    <td>5</td>
+                    <td class="se">TP SE1</td>
+                    <td class="bdd">TP BDD</td>
+                    <td class="dev">TP dev web labo 4 </td>
+                    <td class="rs">TP RESEAU labo 1 Aoudia</td>
+                </tr>
+                <tr>
+                    <td data-label="days" rowspan="5">Mercredi</td>
+                    <td data-label="grp">1</td>
+                    <td class="se" data-label="8:00 - 9:30" >TP SE1 </td>
+                    <td class="poo" data-label="9:40 - 11:10" > TP POO -Boufedji</td>
+                    <td class="rs" data-label="11:20 - 12:50" > TP RESEAU -Aoudia </td>
+                    <td data-label="13:00 - 14:30" rowspan="5"> </td>
+                    <td class="poo" data-label="14:40 - 16:00" rowspan="5">POO-salle cour 3 -Boufedji</td>
+                    <td class="rs" data-label="16:10 - 17:25" rowspan="5">RESEAU- amphi ben badis -Halfaoui</td>
+                </tr>
+                    <tr data-label="grp">
+                       <td>2</td>
+                       <td class="rs">TP RESEAU -Aoudia </td>
+                       <td class="se" >TP SE1</td>
+                       <td class="poo">TP POO -Boufedji</td>
+                    </tr>
+                    <tr data-label="grp">
+                        <td>3</td>
+                        <td class="se" >TD SE1 salle 31 mahseur</td>
+                        <td class="rs">TP RESEAU -Aoudia </td>
+                        <td class="rs">TD RESEAU -Zouai</td>
+                     </tr>
+                    <tr data-label="grp">
+                        <td>4</td>
+                        <td class="rs">TD RESEAU -Zouai</td>
+                        <td class="se">TD SE1 salle 31 mahseur</td>
+                        <td class="se">TP SE1</td>
+                     </tr>
+                    <tr data-label="grp">
+                        <td>5</td>
+                        <td class="poo">TP POO -Boufedji</td>
+                        <td class="rs">TD RESEAU -Zouai</td>
+                        <td class="se">TD SE1 salle 31 mahseur</td>
+                    </tr>
+    
+            
+                <tr>
+                    <td data-label="days" rowspan="5">jeudi</td>
+                    <td data-label="grp">1</td>
+                    <td class="dev" data-label="8:00 - 9:30" >TP dev web </td>
+                    <td class="bdd" data-label="9:40 - 11:10" > TD BDD -Aiouaz</td>
+                    <td class="bdd" data-label="11:20 - 12:50" > TP BDD -Taleb </td>
+                    <td data-label="13:00 - 14:30" rowspan="5"> </td>
+                    <td class="bdd" data-label="14:40 - 16:00" rowspan="5">BDD salle cour 3 -Aiouaz</td>
+                    <td data-label="16:10 - 17:25" rowspan="5"></td>
+                </tr>
+                    <tr data-label="grp">
+                       <td>2</td>
+                       <td class="bdd">TP BDD -Taleb </td>
+                       <td class="dev" >TP dev web</td>
+                       <td class="bdd">TD BDD -Aiouaz</td>
+                    </tr>
+                    <tr data-label="grp">
+                        <td>3</td>
+                        <td class="thl">TP THL</td>
+                        <td class="bdd">TP BDD -Taleb </td>
+                        <td class="thl">TD THL</td>
+                     </tr>
+                    <tr data-label="grp">
+                        <td>4</td>
+                        <td class="thl">TD THL</td>
+                        <td class="thl">TP THL</td>
+                        <td class="dev" >TP dev web</td>
+                     </tr>
+                    <tr data-label="grp">
+                        <td>5</td>
+                        <td class="bdd">TD BDD -Aiouaz</td>
+                        <td class="thl">TD THL</td>
+                        <td class="thl">TP THL</td>
+                    </tr>
+        </tbody>
+    </table>
+</body>
+</html>
